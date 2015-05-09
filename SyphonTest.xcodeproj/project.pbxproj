@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35DA4BAB1AFD888E00206EF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA4BAA1AFD888E00206EF5 /* AppDelegate.m */; };
+		35DA4BAD1AFD888E00206EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA4BAC1AFD888E00206EF5 /* main.m */; };
+		35DA4BB01AFD888E00206EF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA4BAF1AFD888E00206EF5 /* ViewController.m */; };
+		35DA4BB21AFD888E00206EF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DA4BB11AFD888E00206EF5 /* Images.xcassets */; };
+		35DA4BB51AFD888E00206EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DA4BB31AFD888E00206EF5 /* Main.storyboard */; };
+		35DA4BC11AFD888E00206EF5 /* SyphonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA4BC01AFD888E00206EF5 /* SyphonTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35DA4BBB1AFD888E00206EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35DA4B9C1AFD888D00206EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35DA4BA31AFD888D00206EF5;
+			remoteInfo = SyphonTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35DA4BA41AFD888D00206EF5 /* SyphonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyphonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DA4BA81AFD888E00206EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35DA4BA91AFD888E00206EF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35DA4BAA1AFD888E00206EF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35DA4BAC1AFD888E00206EF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35DA4BAE1AFD888E00206EF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35DA4BAF1AFD888E00206EF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35DA4BB11AFD888E00206EF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		35DA4BB41AFD888E00206EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35DA4BBA1AFD888E00206EF5 /* SyphonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyphonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DA4BBF1AFD888E00206EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35DA4BC01AFD888E00206EF5 /* SyphonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyphonTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35DA4BA11AFD888D00206EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DA4BB71AFD888E00206EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35DA4B9B1AFD888D00206EF5 = {
+			isa = PBXGroup;
+			children = (
+				35DA4BA61AFD888D00206EF5 /* SyphonTest */,
+				35DA4BBD1AFD888E00206EF5 /* SyphonTestTests */,
+				35DA4BA51AFD888D00206EF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35DA4BA51AFD888D00206EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35DA4BA41AFD888D00206EF5 /* SyphonTest.app */,
+				35DA4BBA1AFD888E00206EF5 /* SyphonTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35DA4BA61AFD888D00206EF5 /* SyphonTest */ = {
+			isa = PBXGroup;
+			children = (
+				35DA4BA91AFD888E00206EF5 /* AppDelegate.h */,
+				35DA4BAA1AFD888E00206EF5 /* AppDelegate.m */,
+				35DA4BAE1AFD888E00206EF5 /* ViewController.h */,
+				35DA4BAF1AFD888E00206EF5 /* ViewController.m */,
+				35DA4BB11AFD888E00206EF5 /* Images.xcassets */,
+				35DA4BB31AFD888E00206EF5 /* Main.storyboard */,
+				35DA4BA71AFD888D00206EF5 /* Supporting Files */,
+			);
+			path = SyphonTest;
+			sourceTree = "<group>";
+		};
+		35DA4BA71AFD888D00206EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35DA4BA81AFD888E00206EF5 /* Info.plist */,
+				35DA4BAC1AFD888E00206EF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35DA4BBD1AFD888E00206EF5 /* SyphonTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				35DA4BC01AFD888E00206EF5 /* SyphonTestTests.m */,
+				35DA4BBE1AFD888E00206EF5 /* Supporting Files */,
+			);
+			path = SyphonTestTests;
+			sourceTree = "<group>";
+		};
+		35DA4BBE1AFD888E00206EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35DA4BBF1AFD888E00206EF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35DA4BA31AFD888D00206EF5 /* SyphonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DA4BC41AFD888E00206EF5 /* Build configuration list for PBXNativeTarget "SyphonTest" */;
+			buildPhases = (
+				35DA4BA01AFD888D00206EF5 /* Sources */,
+				35DA4BA11AFD888D00206EF5 /* Frameworks */,
+				35DA4BA21AFD888D00206EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyphonTest;
+			productName = SyphonTest;
+			productReference = 35DA4BA41AFD888D00206EF5 /* SyphonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35DA4BB91AFD888E00206EF5 /* SyphonTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DA4BC71AFD888E00206EF5 /* Build configuration list for PBXNativeTarget "SyphonTestTests" */;
+			buildPhases = (
+				35DA4BB61AFD888E00206EF5 /* Sources */,
+				35DA4BB71AFD888E00206EF5 /* Frameworks */,
+				35DA4BB81AFD888E00206EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35DA4BBC1AFD888E00206EF5 /* PBXTargetDependency */,
+			);
+			name = SyphonTestTests;
+			productName = SyphonTestTests;
+			productReference = 35DA4BBA1AFD888E00206EF5 /* SyphonTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35DA4B9C1AFD888D00206EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = KasaiKaoru;
+				TargetAttributes = {
+					35DA4BA31AFD888D00206EF5 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					35DA4BB91AFD888E00206EF5 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 35DA4BA31AFD888D00206EF5;
+					};
+				};
+			};
+			buildConfigurationList = 35DA4B9F1AFD888D00206EF5 /* Build configuration list for PBXProject "SyphonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35DA4B9B1AFD888D00206EF5;
+			productRefGroup = 35DA4BA51AFD888D00206EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35DA4BA31AFD888D00206EF5 /* SyphonTest */,
+				35DA4BB91AFD888E00206EF5 /* SyphonTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35DA4BA21AFD888D00206EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DA4BB21AFD888E00206EF5 /* Images.xcassets in Resources */,
+				35DA4BB51AFD888E00206EF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DA4BB81AFD888E00206EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35DA4BA01AFD888D00206EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DA4BB01AFD888E00206EF5 /* ViewController.m in Sources */,
+				35DA4BAD1AFD888E00206EF5 /* main.m in Sources */,
+				35DA4BAB1AFD888E00206EF5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DA4BB61AFD888E00206EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DA4BC11AFD888E00206EF5 /* SyphonTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35DA4BBC1AFD888E00206EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35DA4BA31AFD888D00206EF5 /* SyphonTest */;
+			targetProxy = 35DA4BBB1AFD888E00206EF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35DA4BB31AFD888E00206EF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35DA4BB41AFD888E00206EF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35DA4BC21AFD888E00206EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		35DA4BC31AFD888E00206EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		35DA4BC51AFD888E00206EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyphonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35DA4BC61AFD888E00206EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyphonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		35DA4BC81AFD888E00206EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SyphonTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyphonTest.app/Contents/MacOS/SyphonTest";
+			};
+			name = Debug;
+		};
+		35DA4BC91AFD888E00206EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SyphonTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyphonTest.app/Contents/MacOS/SyphonTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35DA4B9F1AFD888D00206EF5 /* Build configuration list for PBXProject "SyphonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DA4BC21AFD888E00206EF5 /* Debug */,
+				35DA4BC31AFD888E00206EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DA4BC41AFD888E00206EF5 /* Build configuration list for PBXNativeTarget "SyphonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DA4BC51AFD888E00206EF5 /* Debug */,
+				35DA4BC61AFD888E00206EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35DA4BC71AFD888E00206EF5 /* Build configuration list for PBXNativeTarget "SyphonTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DA4BC81AFD888E00206EF5 /* Debug */,
+				35DA4BC91AFD888E00206EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35DA4B9C1AFD888D00206EF5 /* Project object */;
+}
